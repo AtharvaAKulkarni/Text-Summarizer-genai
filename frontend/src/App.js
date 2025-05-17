@@ -33,7 +33,7 @@ function App() {
     setSummaryData(null);
 
     try {
-      const response = await fetch('text-summarizer-genai.vercel.app/get-summary', {
+      const response = await fetch('https://text-summarizer-genai.vercel.app/get-summary', {
         method: 'POST',
         headers: {
           'Content-Type': 'text/plain',
